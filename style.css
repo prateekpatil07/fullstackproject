@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: auto;
+    background-color: ivory;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3{
+    position: relative;
+    opacity: 0.75;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+}
+.bgimg-1{
+    background-image: url(img/B1.jpg);
+    height: 700px;
+}
+.bgimg-2{
+    background-image: url(img/B2.jpg);
+    min-height: 500px;
+}
+.bgimg-3{
+    background-image: url(img/bike4.jpg);
+    min-height: 500px;
+}
+
+.caption{
+    color: rgb(255, 0, 68);
+    font-family: 'Suez One', serif;
+    text-align: center;
+}
+p{
+    font-size: 14px;
+}
+.txt{
+    padding-top: 100px;
+    font-size: 60px;
+
+}
+.textcontainer{
+    color: honeydew;
+    font-family: 'Suez One', serif;
+    width: 500px;
+    position: relative;
+    top: 25px;
+}
+
+.menu{
+    height: auto;
+    width: auto;
+    padding-right: 100px;
+}
+.menu ul a{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Suez One', serif;
+    color: black;
+    text-shadow :2px 2px 5px blanchedalmond;
+}
+.about{
+    color:#ddd;
+    background-color:#282E34;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+}
+
+@media only screen and (max-width:400px){
+    .menu ul a{
+        padding: 10px 5px;
+        font-size: 16px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .txt{
+        padding-top:30px;
+        font-size: 40px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .menu{
+        height: auto;
+        width: auto;
+        padding: 20px 25px;
+    }
+    .about{
+        text-align:center;
+        padding:10px 10px;
+    }
+}
